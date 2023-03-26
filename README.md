@@ -1,2 +1,3 @@
 # Metadata2Filename
 ImageJ macros to append metadata info (date of acquisition/czt dimensions) to filenames for zeiss czi files
+I sometimes rush and don't include perfect file names during imaging sessions. I image a lot so even if this is a small number of files, it adds up. These macros are designed to read the metadata of zeiss (880/980/Elyra) .czi files and append a new prefix to all the file names with the date of creation and the CZT dimensions  "YYYY-MM-DD-C#_Z#_D#_".  The macros will check to make sure its a czi file, then check to make sure it hasn't already been processed with the new info appended, then it will run either on the open image, on a folder, or on a whole directory and the subfolders therein. 
